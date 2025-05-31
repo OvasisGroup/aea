@@ -1,5 +1,6 @@
 import Blog from "@/components/Blog";
 import CaseStudies from "@/components/casestudies";
+import Divisions from "@/components/Divisions";
 import IntroductionText from "@/components/IntroductionText";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       AEA LIMITED WEB UPLOAD
       
       <IntroductionText/>
+      <Divisions/>
       <CaseStudies/>
       <Blog/>
     </div>

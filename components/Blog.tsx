@@ -57,7 +57,7 @@ export default function Blog() {
   ];
 
   return (
-    <div className="container mx-auto py-10 px-6">
+    <div className="container mx-auto py-20 px-6">
       <motion.div
         className="md:flex items-center justify-between my-8"
         initial="hidden"

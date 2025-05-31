@@ -8,7 +8,7 @@ const MainFooter = () => {
     <div className='bg-gray-900 text-white w-full  bottom-0 left-0 right-0'>
       <MailingList/>
       <div className='container mx-auto grid md:grid-cols-3 gap-4 py-10 px-6'>
-        <div className='text-white'>
+        <div className='text-white flex flex-col items-start justify-end'>
           <Image src="/images/aealimited.svg" alt="logo" width={100} height={50} />
           <p className='text-normal py-6'>AEA has consistently remained as the largest supplier of weighing solutions in East Africa to date. Over the years, the company has continuously diversified its activities and product offering due to the strong aftermarket support.</p>
         </div>
