@@ -21,7 +21,7 @@ const config = {
 		},
 		colors: {
 			primary: {
-				DEFAULT: '#0070f3',
+				DEFAULT: '#AB2328',
 				foreground: 'hsl(var(--primary))'
 			},
 			secondary: {
