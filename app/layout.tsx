@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import MainFooter from "@/components/Mainfooter";
+import Navbar from "@/components/Navbar";
 
 
 
@@ -25,9 +26,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body suppressHydrationWarning={true}
-        className={`${geistSans.variable} antialiased`}
+        className={`${geistSans.variable} antialiased bg-gray-100`}
       >
-        
+        <Navbar/>
         {children}
         <MainFooter/>
       </body>
