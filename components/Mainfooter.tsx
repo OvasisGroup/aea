@@ -5,7 +5,7 @@ import MailingList from './MailingList'
 
 const MainFooter = () => {
   return (
-    <div className='bg-gray-900 text-white w-full absolute bottom-0 left-0 right-0'>
+    <div className='bg-gray-900 text-white w-full  bottom-0 left-0 right-0'>
       <MailingList/>
       <div className='container mx-auto grid md:grid-cols-3 gap-4 py-10 px-6'>
         <div className='text-white px-6'>
