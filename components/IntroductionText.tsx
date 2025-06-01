@@ -15,7 +15,7 @@ export default function IntroductionText() {
       >
         <div className='grid grid-cols-1 md:grid-cols-2 gap-10 mb-6'>
         <div className="flex flex-col justify-center">
-            <Image src={"/images/combined_images.jpg"} alt="logo" width={1000} height={500} className='w-full rounded-3xl' />
+            <Image src={"/images/combined_images.jpg"} alt="logo" width={1000} height={450} className='w-full rounded-3xl bg-white' />
         </div>
         <div className="flex flex-col justify-center">
             <div>

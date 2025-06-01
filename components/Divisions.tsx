@@ -19,7 +19,7 @@ export default function Divisions() {
             <p className='mb-6 text-xl font-light'>AEA has consistently remained as the largest supplier of weighing solutions in East Africa to date. Over the years, the company has continuously diversified its activities and product offering due to the strong aftermarket support.</p>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-10 mb-6 container mx-auto px-6'>
-        <div className="flex flex-col justify-center text-center items-center bg-white p-10">
+        <div className="flex flex-col justify-center text-center items-center bg-white p-10 hover:border-b-4 border-primary transition-all duration-1000">
             <Image src={"/images/SVG/trading.svg"} alt="logo" width={80} height={80} className='mb-4' />
             <h1 className="md:text-2xl text-xl font-light text-primary mb-4">Trading Division</h1>
             <p className=" text-gray-600">We are the largest supplier of weighing solutions in East Africa, providing innovative and reliable products to meet diverse needs in every possible industry in East and Central Africa.</p>
@@ -27,7 +27,7 @@ export default function Divisions() {
               Learn More <ArrowRightIcon/>
             </Link>
         </div>
-        <div className="flex flex-col justify-center text-center items-center bg-white p-10">
+        <div className="flex flex-col justify-center text-center items-center bg-white p-10 hover:border-b-4 border-primary transition-all duration-1000">
             <Image src={"/images/SVG/construction.svg"} alt="logo" width={80} height={80} className='mb-4' />
             <h1 className="md:text-2xl text-xl font-light text-primary mb-4">Construction Division</h1>
             <p className=" text-gray-600">We are a leading provider of construction equipment and solutions, offering high-quality products and reliable services to support the needs of the construction industry.</p>
@@ -35,7 +35,7 @@ export default function Divisions() {
               Learn More <ArrowRightIcon/>
             </Link>
             </div>
-            <div className="flex flex-col justify-center text-center items-center bg-white p-10">
+            <div className="flex flex-col justify-center text-center items-center bg-white p-10 hover:border-b-4 border-primary transition-all duration-1000">
             <Image src={"/images/SVG/operations.svg"} alt="logo" width={80} height={80} className='mb-4' />
             <h1 className="md:text-2xl text-xl font-light text-primary mb-4">Operations Division</h1>
             <p className=" text-gray-600">We are a leading provider of project operations and management solutions, delivering high-quality services and efficient execution to ensure the successful delivery of projects.</p>
