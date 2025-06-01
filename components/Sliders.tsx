@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const slides = [
-  { id: 1, content: 'Slide 1' },
+  { id: 1, image: '/images/MIKESE.jpg', content: 'Slide 1' },
   { id: 2, content: 'Slide 2' },
   { id: 3, content: 'Slide 3' },
   { id: 4, content: 'Slide 4' },
