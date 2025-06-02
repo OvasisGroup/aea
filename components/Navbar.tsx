@@ -12,16 +12,16 @@ export default function Navbar() {
   const closeMenu = () => setMenuOpen(false)
 
   return (
-    <header className="sticky top-0 z-50 bg-gray-700 text-white">
-      <nav className="border-b border-gray-600 sticky">
-        <div className="container mx-auto px-6 py-4 flex items-center justify-between">
+    <header className="sticky top-0 z-50 text-white bg-gray-900">
+      <nav className="sticky border-b border-gray-900">
+        <div className="container flex items-center justify-between px-6 py-4 mx-auto">
           {/* Logo */}
           <Link href="/" onClick={closeMenu}>
             <Image src="/images/aealimited.svg" alt="logo" width={100} height={50} />
           </Link>
 
           {/* Desktop menu */}
-          <div className="hidden md:flex space-x-4 items-center">
+          <div className="items-center hidden space-x-4 md:flex">
             <Link href="/" className="hover:text-primary">Home</Link>
             <Link href="/about" className="hover:text-primary">About Us</Link>
             <Link href="/services" className="hover:text-primary">Services</Link>
@@ -29,7 +29,7 @@ export default function Navbar() {
             <Link href="/news" className="hover:text-primary">News</Link>
             <Link
               href="/contact"
-              className="bg-primary px-4 py-2 flex items-center gap-2 rounded hover:bg-primary/90 transition"
+              className="flex items-center gap-2 px-4 py-2 transition rounded bg-primary hover:bg-primary/90"
             >
               Contacts <ArrowRightIcon className="w-4 h-4" />
             </Link>
@@ -49,7 +49,7 @@ export default function Navbar() {
 
         {/* Mobile dropdown */}
         {menuOpen && (
-          <div className="md:hidden bg-gray-800 px-6 py-4 space-y-4">
+          <div className="px-6 py-4 space-y-4 bg-gray-800 md:hidden">
             <Link href="/" onClick={closeMenu} className="block hover:text-primary">Home</Link>
             <Link href="/about" onClick={closeMenu} className="block hover:text-primary">About Us</Link>
             <Link href="/services" onClick={closeMenu} className="block hover:text-primary">Services</Link>
@@ -58,7 +58,7 @@ export default function Navbar() {
             <Link
               href="/contact"
               onClick={closeMenu}
-              className="block bg-primary px-4 py-2 flex items-center gap-2 rounded hover:bg-primary/90 transition"
+              className="flex items-center block gap-2 px-4 py-2 transition rounded bg-primary hover:bg-primary/90"
             >
               Contacts <ArrowRightIcon className="w-4 h-4" />
             </Link>
