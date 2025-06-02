@@ -26,9 +26,9 @@ export default function Header() {
   return (
     <div className='bg-[url(/images/bg-hero.jpg)] bg-cover bg-no-repeat bg-center mb-10'>
         <Navbar/>
-    <div className='container mx-auto  h-[90vh]' >
+    <div className='container mx-auto  md:h-[90vh] px-6 md:px-0' >
         <div className='grid h-full grid-cols-1 md:grid-cols-2'>
-            <div className='flex flex-col items-start justify-center px-4 text-white md:px-10'>
+            <div className='flex flex-col items-start justify-center px-4 pt-10 text-center text-white md:px-10 md:text-left md:pt-0'>
                 <AnimatePresence mode='wait'>
                 <motion.h1 
                 key={activeData.title}
@@ -47,7 +47,7 @@ export default function Header() {
                 exit='exit'
                  className='mb-6 text-lg font-light md:text-xl'>{activeData.description}</motion.p>
                 </AnimatePresence>
-                <Link href={activeData.link} className='px-6 py-3 text-white transition duration-300 rounded bg-primary hover:bg-green-800'></Link> 
+                <Link href={activeData.link} className='flex items-center justify-center px-6 py-3 text-white transition duration-300 rounded bg-primary hover:bg-green-800 md:item-start'></Link> 
             </div>
             <div className='flex items-end justify-center h-full'>
             <AnimatePresence mode='wait'>
