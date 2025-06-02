@@ -24,7 +24,7 @@ export default function Header() {
     }, [currentIndex])
 
   return (
-    <div className='bg-[url(/images/bg-hero.jpg)] bg-cover bg-no-repeat bg-center mb-10'>
+    <div className='bg-[url(/images/bg-hero.jpg)] bg-cover bg-no-repeat bg-center mb-10 bg-gray-900'>
         <Navbar/>
     <div className='container mx-auto  md:h-[90vh] px-6 md:px-0' >
         <div className='grid h-full grid-cols-1 md:grid-cols-2'>
