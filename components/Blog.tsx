@@ -5,7 +5,7 @@ import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
 import { truncateText } from '@/lib/utils';
-import { motion } from 'framer-motion';
+import { easeOut, motion } from 'framer-motion';
 
 const container = {
   hidden: {},
@@ -23,7 +23,7 @@ const fadeUp = {
     y: 0,
     transition: {
       duration: 0.6,
-      ease: 'easeOut',
+      ease: easeOut,
     },
   },
 };
