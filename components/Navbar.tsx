@@ -23,7 +23,7 @@ export default function Navbar() {
           {/* Desktop menu */}
           <div className="items-center hidden space-x-4 md:flex">
             <Link href="/" className="hover:text-primary">Home</Link>
-            <Link href="/about" className="hover:text-primary">About Us</Link>
+            <Link href="/about" className="hover:text-primary">About</Link>
             <Link href="/services" className="hover:text-primary">Services</Link>
             <Link href="/case-studies" className="hover:text-primary">Case Studies</Link>
             <Link href="/news" className="hover:text-primary">News</Link>
